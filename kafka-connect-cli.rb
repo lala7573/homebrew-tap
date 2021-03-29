@@ -2,16 +2,16 @@
 class KafkaConnectCli < Formula
   desc ""
   homepage ""
-  version "0.0.1"
+  version "0.0.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/lala7573/kafka-connect-cli/releases/download/v0.0.1/kafka-connect-cli_0.0.1_Darwin_x86_64.tar.gz"
-    sha256 "8ab9ffc070665be4c99b90b5863f6808c208eb8541e031945d33b443c0f02c31"
+    url "https://github.com/lala7573/kafka-connect-cli/releases/download/v0.0.2/kafka-connect-cli_0.0.2_Darwin_x86_64.tar.gz"
+    sha256 "c9c93a8a4b84b2207c36a4682fbf6e028579c57fbb0e0dd4afdfd9baf1f94038"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/lala7573/kafka-connect-cli/releases/download/v0.0.1/kafka-connect-cli_0.0.1_Linux_x86_64.tar.gz"
-      sha256 "b38848e3650177a58f463f63d714f48a144121704f1f13606a067dcddd9d078c"
+      url "https://github.com/lala7573/kafka-connect-cli/releases/download/v0.0.2/kafka-connect-cli_0.0.2_Linux_x86_64.tar.gz"
+      sha256 "cff50e9e0271c266b749fb2c940300dc2a967b90e73f93c8e2d879de72b6d8ac"
     end
   end
 
